@@ -12,8 +12,11 @@ let package = Package(
             targets: ["IASDKCore"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        .binaryTarget(
+            name: "InMobiSDK",
+            url: "https://github.com/AnyMindG/AllFrameworks/releases/download/10000.0.0/InMobiSDK.zip",
+            checksum: "d50f1f1b0c068ac62807811251d21e746c19241622bfdd0c1ee7f58dcbe1cc4f"
+        ),
         .target(
             name: "IASDKCore"),
         .testTarget(
