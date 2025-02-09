@@ -2,7 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-
+// v1.2.0
 let package = Package(
     name: "IASDKCore",
     products: [
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InMobiSDK",
-            url: "https://github.com/AnyMindG/AllFrameworks/releases/download/10000.0.0/InMobiSDK.zip",
-            checksum: "d50f1f1b0c068ac62807811251d21e746c19241622bfdd0c1ee7f58dcbe1cc4f"
+            url: "https://github.com/AnyMindG/AllFrameworks/releases/download/10000.5.0/IASDKCore.zip",
+            checksum: "f295c2d7911c2206a89e43ef171926c74cb6ace1cf0bf1a8a6a12f1171dd03c6"
         ),
         .target(
             name: "IASDKCore"),
